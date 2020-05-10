@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!------CSS STYLE-------->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Air BnB </title>
+  </head>
+  <body class="container-fluid">
+    <header>
+    	<!----------------------MENU------------------------------->
+    	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">			    
+			    <a class="navbar-brand" href="#"><img class="img-fluid logo" src="img/logo.png"></a>
+			    <div class="menu-center">
+			    	<div class="pesquisa">
+				    	<button class="lugar"> 
+				    		<span class="teste1">Rio de Janeiro,Brasil</span>	
+				    	</button>
+				    	<button class="lugar"> 
+				    		<span class="teste2" placeholder="Rio de Janeiro/Brasil">10 de ago - 14 dez</span>	
+				    	</button>
+				    	<button class="lugar"> 
+				    		<span class="teste3" placeholder="Rio de Janeiro/Brasil">Hóspede</span>
+				    		Insira o  número de Hóspedes
+				    	</button>
+				      
+				      	<form class="form-inline my-2 my-lg-0">				      
+				      		<button class="btn  my-2 my-sm-0 search" type="submit"><img class="lupa" src="img/lupa.svg"></button>
+				    	</form>
+			    	</div>
+		    	</div>
+		    	<div class="d-flex flex-row bd-highlight mb-3">
+  					<div class="p-2 bd-highlight"><img class="globo" src="img/globe.svg"></div>
+  					<div class="p-2 bd-highlight"><img class="down" src="img/down-arrow.svg"></div>
+				</div>
+			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			      <li class="nav-item ajuda">
+			        <a class="nav-link" href="#">Ajuda</a>
+			      </li>
+			      <li class="nav-item bot">
+			        <a class="nav-link botao" href="#">Cadastre-se</a>
+			      </li>
+			    </ul>			    
+		    </div>
+		</nav>
+    </header><!------------------MEIO----------------------->
+    <main>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12 col-xs-12 ">
+    				<H1 class="titulo text-left text-sm-left text-md-left text-lg-left">Acomodações em Rio de Janeiro</H1>
+    				<div class="botoes col-xs-6 col-sm-6 col-md-12 col-lg-12">
+    					<div class="botao1">Preço</div>
+    					<div class="botao1">Tipo de lugar</div>
+    					<div class="botao1">Cancelamento</div>
+    					<div class="botao1">Filtro</div>
+    				</div>    				
+    			</div> <!------------------CARDS-------------------------->
+    			<div id="cards"></div>    			
+    		</div>
+    	</div>
+    </main><!-----------------footer---------->
+    <hr>
+    <footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-xs-12 col-md-3 col-lg-3">
+	                <h3 class="title uppercase inst">SOBRE</h3>
+	                <ul class="lista">
+	                  <li><a href="#">Airbnb Citizen</a></li>
+	                  <li><a href="#">Acessibilidade</a></li>
+	                  <li><a href="#">Confiança e segurança</a></li>
+	                  <li><a href="#">Newsroom</a></li>
+	                </ul>
+           		</div>
+           		<div class=" col-xs-12 col-md-3 col-lg-3">
+	                <h3 class="title uppercase inst">COMUNIDADE</h3>
+	                <ul class="lista">
+	                  <li><a href="#">Airbnb Magazine</a></li>
+	                  <li><a href="#">Airbnb for Work</a></li>
+	                  <li><a href="#">Convide amigos</a></li>
+	                  <li><a href="#">Carreiras</a></li>
+	                </ul>
+           		</div>
+           		<div class=" col-xs-12 col-md-3 col-lg-3">
+	                <h3 class="title uppercase inst">ANFITRIÃO</h3>
+	                <ul class="lista">
+	                  <li><a href="#">Open Homes</a></li>
+	                  <li><a href="#">Olimpíadas</a></li>
+	                  <li><a href="#">Central de Recursos</a></li>
+	                  <li><a href="#">Ofereça uma experiência</a></li>
+	                </ul>
+           		</div>
+           		<div class="col-xs-12 col-md-3 col-lg-3">
+          			<h3 class="title uppercase inst">ATENDIMENTO</h3>
+	                <ul class="lista">
+	                  <li><a href="#">Central de Ajuda</a></li>
+	                  <li><a href="#">Atendimento ao Bairro</a></li>
+	                </ul>
+           		</div>
+    		</div>
+		</div><hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-4 footer2">
+					<p>© 2020 Airbnb, Inc. All rights reserved</p>
+					<div class="rodape">	
+						<div class="git redes">
+							<a href="https://github.com/NathanCastro" alt="github" />
+								<img src="img/github-brands.svg">
+							</a>  
+						</div>
+						<div class="link redes">
+							<a href="https://www.linkedin.com/in/nathan-castro-51a65aaa/">
+								<img src="img/linkedin-brands.svg" alt="linkedin"/>
+							</a>   
+						</div>
+						<div class="insta redes">
+							<a href="https://www.instagram.com/nathanzinhuu/?hl=pt-br">
+								<img src="img/instagram-brands.svg" alt="instagram"/>
+							</a>        
+						</div>
+					</div>    					
+				</div>
+			</div>
+		</div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

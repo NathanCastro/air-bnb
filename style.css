@@ -1,0 +1,288 @@
+
+
+/*------------------MENU------------------*/
+
+.logo{
+	width: 180px;
+	padding: 17px;
+}
+
+.menu-center{
+	flex: 1 1 auto !important;
+    min-width: 0px !important;
+    padding: 0 24px !important;
+    text-align: center !important;
+}
+
+.pesquisa{
+	width: auto;
+	box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 5px;
+	height: 48px;
+	border-radius: 14px ;
+	background: rgb(255, 255, 255);
+	align-items: center;
+	display: inline-flex;
+	-webkit-box-align: center !important;
+
+/*
+	-webkit-box-align: center !important;
+    align-items: center !important;
+    
+    display: inline-flex !important;
+    
+    max-width: 100% !important;
+    min-width: 260px !important;
+    position: relative !important;
+    vertical-align: middle !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(34, 34, 34) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-image: initial !important;
+    border-radius: 12px !important;
+    transition: box-shadow 0.2s ease 0s !important;
+    border-color: rgb(247, 247, 247) !important;
+    */
+
+}
+
+.lugar{
+	border: none;
+	border-right: 1px solid #D3D3D3;
+	cursor: pointer;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    line-height: 18px ;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 16px;
+    flex: 1 1 auto;
+
+
+	/*-webkit-appearance: none !important;
+    color: inherit !important;
+    
+    display: inline-block !important;
+    
+    
+    position: relative !important;
+    z-index: 2 !important;
+    
+    
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    
+    border-style: initial !important;
+    
+    outline: none !important;
+    
+    text-decoration: none !important;
+    */
+}
+
+.local{
+	border: 0px !important;
+    
+}
+/*------teste---------*/
+
+.teste1{
+	flex: 0 0 1px !important;
+    height: 100% !important;
+    width: 1px !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+.teste2{
+	flex: 0 0 1px !important;
+    height: 100% !important;
+    width: 1px !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+.teste3{
+	border: 0px !important;
+    clip: rect(0 0 0 0) !important;
+    -webkit-clip-path: inset(100%) !important;
+    clip-path: inset(100%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0px !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
+
+.botao{
+	border-radius: 23px;
+	border: 1px solid;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.search{
+	width: 54px;
+	height: 48px;
+	background-color: #fff;
+	border-radius: 14px;
+}
+.search:hover{
+	background: #FF5A5F;
+
+
+}
+.lupa{
+	width: 16px;
+	height: 16px;
+}
+
+.d-flex{
+	cursor: pointer;
+	border-radius: 12px;
+    height: 42px;
+    width: 55px;
+    margin-top: 16px;	
+}
+
+.d-flex:hover{
+	background: #E0EEEE;
+}
+
+.globo{
+	width: 16px;
+	direction: flex;
+}
+
+.down{
+	width: 9px;
+}
+
+
+ul.navbar-nav{
+	margin-left: 9px;
+}
+
+.ajuda:hover{
+	background: #E0EEEE;
+	border-radius: 12px;
+}
+
+.bot{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.10);
+    margin-right: 50px;
+    border: 1px solid rgb(235,235,235);
+    border-radius: 22px;
+}
+.nav-item{
+	margin-right: 25px;
+}
+
+/*------------------------MAIN-----------------------------*/
+
+.titulo{
+    margin-top: 57px;
+    margin-bottom: 40px;
+    font-size: 2.4em;
+	font-weight: bold;
+	line-height: 12px; 
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.titulo h1{
+	
+}
+
+.botoes{
+	display: flex;
+}
+
+.botao1{
+	cursor: pointer;
+	padding: 6px 37px;
+	border-radius: 28px;
+	margin-right: 25px;
+	border: rgba(0,0,0,0.36) 1px solid;
+}
+
+.botao1:hover{
+	cursor: pointer;
+    border: rgba(0,0,0, 0.70) 1px solid;
+}
+
+
+.card-deck{
+	margin-top: 93px;
+}
+
+.card-deck .card{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/*-----------------------------FOOTER------------------------*/
+
+title{
+	color: #ff0000;
+	font-size: 18px;
+	text-align: left;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	.title{
+		font-size: 12px;
+	    padding-bottom: 6px;
+	    text-align: left;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.title{
+		font-size: 17px;
+		text-align: left;
+	}
+}
+
+
+
+.lista{
+	list-style: none;
+	line-height: 35px;
+    text-align: left;
+	padding-left: 0;
+
+}
+
+.lista a{	
+	color: #000;	
+}
+
+p{
+	float: left;
+}
+.rodape{
+	display: flex;
+	float: left;
+}
+
+@media only screen and (min-width: 568px){
+	.rodape{
+		display: flex;
+		float: right;
+	}
+}
+
+.redes{
+	width: 40px;
+	height: 40px;
+	margin: 0 15px;
+	float: right;
+}
+
