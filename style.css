@@ -1,6 +1,6 @@
 
 
-/*------------------MENU------------------*/
+/*----------------------------------MENU------------------------------------*/
 
 .logo{
 	width: 180px;
@@ -8,48 +8,33 @@
 }
 
 .menu-center{
-	flex: 1 1 auto !important;
-    min-width: 0px !important;
-    padding: 0 24px !important;
-    text-align: center !important;
+	flex: 1 1 auto ;
+    min-width: 0px;
+    padding: 0 24px;
+    text-align: center;
 }
 
 .pesquisa{
 	width: auto;
-	box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 5px;
 	height: 48px;
 	border-radius: 14px ;
 	background: rgb(255, 255, 255);
 	align-items: center;
 	display: inline-flex;
-	-webkit-box-align: center !important;
-
-/*
-	-webkit-box-align: center !important;
-    align-items: center !important;
-    
-    display: inline-flex !important;
-    
-    max-width: 100% !important;
-    min-width: 260px !important;
-    position: relative !important;
-    vertical-align: middle !important;
-    background-color: rgb(255, 255, 255) !important;
-    color: rgb(34, 34, 34) !important;
-    border-width: 1px !important;
-    border-style: solid !important;
-    border-image: initial !important;
-    border-radius: 12px !important;
-    transition: box-shadow 0.2s ease 0s !important;
-    border-color: rgb(247, 247, 247) !important;
-    */
-
+	-webkit-box-align: center;
+	border:1px solid #D3D3D3;
 }
+
+.pesquisa:hover{
+	width: auto;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+
 
 .lugar{
 	border: none;
 	border-right: 1px solid #D3D3D3;
-	cursor: pointer;
     height: 100%;
     cursor: pointer;
     background: transparent;
@@ -58,62 +43,40 @@
     text-align: center;
     padding: 0px 16px;
     flex: 1 1 auto;
-
-
-	/*-webkit-appearance: none !important;
-    color: inherit !important;
-    
-    display: inline-block !important;
-    
-    
-    position: relative !important;
-    z-index: 2 !important;
-    
-    
-    text-overflow: ellipsis !important;
-    white-space: nowrap !important;
-    
-    border-style: initial !important;
-    
-    outline: none !important;
-    
-    text-decoration: none !important;
-    */
 }
 
-.local{
-	border: 0px !important;
-    
-}
-/*------teste---------*/
+
+
+
+/*--------------------------------------teste------------------------------------*/
 
 .teste1{
-	flex: 0 0 1px !important;
-    height: 100% !important;
-    width: 1px !important;
-    position: relative !important;
-    z-index: 1 !important;
+	flex: 0 0 1px;
+    height: 100%;
+    width: 1px;
+    position: relative;
+    z-index: 1;
 }
 
 .teste2{
-	flex: 0 0 1px !important;
-    height: 100% !important;
-    width: 1px !important;
-    position: relative !important;
-    z-index: 1 !important;
+	flex: 0 0 1px;
+    height: 100% ;
+    width: 1px ;
+    position: relative;
+    z-index: 1 ;
 }
 
 .teste3{
-	border: 0px !important;
-    clip: rect(0 0 0 0) !important;
-    -webkit-clip-path: inset(100%) !important;
-    clip-path: inset(100%) !important;
-    height: 1px !important;
-    overflow: hidden !important;
-    padding: 0px !important;
-    position: absolute !important;
-    white-space: nowrap !important;
-    width: 1px !important;
+	border: 0px;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(100%) ;
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0px ;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .botao{
@@ -124,7 +87,7 @@
 
 .search{
 	width: 54px;
-	height: 48px;
+	height: 46px;
 	background-color: #fff;
 	border-radius: 14px;
 }
@@ -169,41 +132,157 @@ ul.navbar-nav{
 	border-radius: 12px;
 }
 
+
+
 .bot{
 	box-shadow: 0px 0px 5px rgba(0,0,0,0.10);
     margin-right: 50px;
     border: 1px solid rgb(235,235,235);
     border-radius: 22px;
 }
+
+@media only screen and (min-width:767px){
+	.nav-item .bot{
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.10);
+	    margin-right: 00px;
+	    border: 1px solid rgb(235,235,235);
+	    border-radius: 22px;
+	}
+}
+
 .nav-item{
 	margin-right: 25px;
 }
 
+@media only screen and (min-width:512px){
+	.nav-item{
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (min-width:992px){
+	.nav-item{
+		margin-right: 0px;
+	}
+}
+
+
+li .nav-link{
+	text-align: center;
+}
+
+li .botao:hover{
+	background-color: #FF385C;
+	cursor: pointer;
+}
 /*------------------------MAIN-----------------------------*/
 
+
+
 .titulo{
-    margin-top: 57px;
-    margin-bottom: 40px;
-    font-size: 2.4em;
+    margin-top: 30px;
+    margin-bottom: 34px;
+    font-size: 1.5em;
 	font-weight: bold;
 	line-height: 12px; 
 	font-family: "Helvetica Neue", sans-serif;
 }
 
-.titulo h1{
-	
+
+@media only screen and (min-width:767px){
+	.titulo{
+	    margin-top: 57px;
+	    margin-bottom: 40px;
+	    font-size: 2.0em;
+		font-weight: bold;
+		line-height: 12px; 
+		font-family: "Helvetica Neue", sans-serif;
+		
+	}
 }
+
+
+/*-------------cards----------------------------*/
+
+#cards{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 45px;
+
+}
+
+.card{
+	border-radius: 7px;
+    height: 394px;
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 10px 15px 0 rgba(220,227,247,.5);
+}
+
+.card:hover{
+	box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 5px;
+	transform: translateY(-20px);	
+	cursor: pointer;
+}
+
+
+.card-body{ 
+	display: flex; 
+	flex-direction: column; 
+	flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.card-text{
+	font-family: Circular, "Helvetica Neue", sans-serif;
+}
+
+.card.property_type{
+	text-align: center;
+}
+
+.card-img-top{
+	height: 212px;
+}
+
+/*-------------cards----------------------------*/
+
 
 .botoes{
 	display: flex;
+	
+	flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
 }
 
+
 .botao1{
-	cursor: pointer;
-	padding: 6px 37px;
 	border-radius: 28px;
-	margin-right: 25px;
-	border: rgba(0,0,0,0.36) 1px solid;
+    margin-top: 5px;
+    font-size: 9px;
+    padding: 2px 49px;
+    font-weight: 600;
+    border: rgba(0,0,0,0.36) 1px solid;
+}
+
+@media only screen and (min-width:767px){
+	.botao1 {
+	    padding: 8px 35px;
+	    border-radius: 28px;
+	    margin-right: 22px;
+	    font-size: 12px;
+	    border: rgba(0,0,0,0.36) 1px solid;
+	}
 }
 
 .botao1:hover{

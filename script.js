@@ -11,18 +11,18 @@ async function fetchCards() {
 
 function renderCards(cards){
 	cardsContainer.innerHTML = "";
-	//cards.map(renderCards);
-	let i = 0;
-	setInterval(() => {
-		renderCards(cards[i])
-		i++
-	}, 1000)
+	cards.map(renderCard);
+	//let i = 0;
+	//setInterval(() => {
+	//	renderCard(cards[i])
+	//	i++
+	//}, 1000)
 }
 
 function renderCard(card){
 	const div = document.createElement("div");
 	div.style.width = "20rem";
-	div.style.margin = "2rem";
+	div.style.margin = "20px";
 	div.className = "card";
 	div.innerHTML = `
 	<img src="${card.photo}" class="card-img-top" alt="${card.name}" />
